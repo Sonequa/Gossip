@@ -1,16 +1,15 @@
 .header {
     width: 100%;
     .box {
-        background-color: pink;
         width: 100%;
-        height: 2.5rem;
+        height: 1.5rem;
         display: flex;
-        justify-content: space-around;
-        .logo {
-            color: #003;
-            font-weight: 900;
-            line-height: 2.5rem;
-            font-size: 1.5rem;
-        }
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .underline {
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, pink 0%, white 70%, white);
     }
 }

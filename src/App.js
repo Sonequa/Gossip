@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './component/Header/index';
+import Authentic from './component/Authentic/index';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      <Authentic></Authentic>
     </div>
   );
 }
