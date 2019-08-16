@@ -12,7 +12,7 @@ class Header extends Component {
     render() {
         return(
             <header className="header">
-                <div className="box">
+                <div className="zone-box">
                     <button></button>
                     
                 </div>
