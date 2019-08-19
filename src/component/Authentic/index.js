@@ -8,13 +8,13 @@ class Authentic extends Component {
         super(props);
         this.state = {
             message: ''
-        }
+        };
     }
 
     getMessage = () => {
         axios.get('/api/auth/login')
             .then(res => console.log(res.data))
-            .catch(err => console.log(err))
+            .catch(err => console.log(err));
     }
 
     componentWillMount() {
@@ -26,7 +26,7 @@ class Authentic extends Component {
             <div className="authentic">
                 <Header></Header>
             </div>
-        )
+        );
     }
 }
 

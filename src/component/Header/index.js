@@ -6,7 +6,7 @@ class Header extends Component {
         super(props);
         this.state = {
             message: '',
-        }
+        };
     }
 
     render() {
@@ -18,7 +18,7 @@ class Header extends Component {
                 </div>
                 <div className="underline"></div>
             </header>
-        )
+        );
     }
 }
 
