@@ -12,21 +12,21 @@ class Authentic extends Component {
     }
 
     getMessage = () => {
-        axios.get('/api/auth/login')
-            .then(res => console.log(res.data))
-            .catch(err => console.log(err));
+    	axios.get('/api/auth/login')
+    		.then(res => console.log(res.data))
+    		.catch(err => console.log(err));
     }
 
     componentWillMount() {
-        this.getMessage();
+    	this.getMessage();
     }
 
     render() {
-        return(
-            <div className="authentic">
-                <Header></Header>
-            </div>
-        );
+    	return(
+    		<div className="authentic">
+    			<Header></Header>
+    		</div>
+    	);
     }
 }
 

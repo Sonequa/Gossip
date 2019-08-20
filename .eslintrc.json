@@ -31,9 +31,16 @@
         "no-console": [
             "off"
         ],
+        "no-mixed-spaces-and-tabs": [
+            "off"
+        ],
         "linebreak-style": [
             "off",
             "windows"
+        ],
+        "object-curly-spacing": [
+            "error",
+            "always"
         ],
         "quotes": [
             "warn",

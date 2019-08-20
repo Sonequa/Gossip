@@ -1,11 +1,11 @@
 import React from 'react';
-import Authentic from './component/Authentic/index';
+import Chat from './component/Chatting/index';
 import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <Authentic></Authentic>
+            <Chat></Chat>
         </div>
     );
 }

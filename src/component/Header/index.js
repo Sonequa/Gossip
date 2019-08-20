@@ -14,7 +14,6 @@ class Header extends Component {
             <header className="header">
                 <div className="zone-box">
                     <button></button>
-                    
                 </div>
                 <div className="underline"></div>
             </header>
