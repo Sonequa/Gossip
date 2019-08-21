@@ -12,19 +12,36 @@ class Authentic extends Component {
     }
 
     getMessage = () => {
+        // let data;
+    	// await axios.get('/api/auth/login')
+    	// 	.then(res => {
+        //         console.log(res.data);
+        //     })
+        //     .catch(err => console.log(err));
+        // this.setState({
+        //     message: data
+        // });
     	axios.get('/api/auth/login')
-    		.then(res => console.log(res.data))
-    		.catch(err => console.log(err));
+    		.then(res => {
+                console.log(res.data);
+            })
+            .catch(err => console.log(err));
     }
 
     componentWillMount() {
-    	this.getMessage();
+        this.getMessage();
     }
 
     render() {
+        let message = this.state.message; 
     	return(
     		<div className="authentic">
-    			<Header></Header>
+    			<Header/>
+                {
+                    message
+                        ? <p>Successfully connected with server...{message}</p>
+                        : <p>Loading...</p>
+                }
     		</div>
     	);
     }

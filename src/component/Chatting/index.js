@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import socketIOClient from 'socket.io-client';
 
 class Chat extends Component {
@@ -26,9 +27,10 @@ class Chat extends Component {
             <div className='chat'>
                 {
                     response 
-                        ? <p>The current temperature in Florance is: {response}</p>
+                        ? <p>The current time is: {response}</p>
                         : <p> Loading... </p>
                 }
+                <p><Link to='auth'>Click me</Link></p>
             </div>
         );
     }
