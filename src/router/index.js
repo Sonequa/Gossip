@@ -1,15 +1,13 @@
 import { BrowserRouter, Route } from 'react-router-dom';
 import React from 'react';
 import App from '../App';
-import Auth from '../component/Authentic';
-import Chat from '../component/Chatting';
+import Auth from '../pages/Authentic';
 
 const RouterConfig = () => {
     return(
         <BrowserRouter>
             <Route path='/' component={App}>
-                <Route exact component={Chat}/>
-                <Route path='auth' component={Auth}/>
+                <Route exact path='/' component={Auth}/>
             </Route>
         </BrowserRouter>
     );

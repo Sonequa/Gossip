@@ -1,0 +1,13 @@
+.authentic {
+  background-color: green;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(252, 218, 224, 0.5);
+  border-radius: 5px;
+}
+.authentic .login-box {
+  background-color: grey;
+  display: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+}

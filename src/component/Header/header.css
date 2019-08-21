@@ -1,4 +1,5 @@
 .header {
+  -webkit-app-region: drag;
   width: 100%;
 }
 .header .zone-box {
@@ -11,5 +12,5 @@
 .header .underline {
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, pink 0%, white 70%, white);
+  background: linear-gradient(to right, #fcdae0 0%, white 70%, white);
 }
