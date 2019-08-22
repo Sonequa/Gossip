@@ -11,7 +11,8 @@ function createWindow () {
     mainWindow = new BrowserWindow({
         width: 300,
         height: 500,
-        alwaysOnTop: true,
+        alwaysOnTop: false,
+        useContentSize: true,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js')
         },

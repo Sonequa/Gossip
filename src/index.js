@@ -7,7 +7,9 @@ import rootReducer from './store/index';
 import { createStore } from 'redux';
 import RouterConfig from './router/index';
 
-let store = createStore(rootReducer);
+let store = createStore(
+    rootReducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 console.log(`BaseParams: ${{ ...store }}`);
 
 ReactDOM.render(

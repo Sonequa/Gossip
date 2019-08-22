@@ -1,16 +1,1 @@
-.header {
-  -webkit-app-region: drag;
-  width: 100%;
-}
-.header .zone-box {
-  width: 100%;
-  height: 1.5rem;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-}
-.header .underline {
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(to right, #fcdae0 0%, white 70%, white);
-}
+.header{-webkit-app-region:drag;width:100%}.header .zone-box{width:100%;height:1.5rem;display:flex;flex-direction:row-reverse;justify-content:flex-end}.header .underline{width:100%;height:2px;background:linear-gradient(to right, rgba(252,218,224,0.5) 0, white 70%, white)}/*# sourceMappingURL=./header.css.map */

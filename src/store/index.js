@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import { User as userReducer } from './reducer/user';
 
 const initialState = {
     data: {
@@ -30,6 +31,7 @@ const studentReducer = function(state = [], action) {
 const allReducer = {
     student: studentReducer,
     stuff: stuffReducer,
+    user: userReducer
 };
 
 const rootReducer = combineReducers(allReducer);
