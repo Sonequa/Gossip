@@ -5,15 +5,35 @@
   border-radius: 5px;
 }
 .authentic .login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   position: fixed;
   top: 50%;
   transform: translate(0, -50%);
 }
-.authentic .login-box input {
+.authentic .login-box h2 {
   display: block;
 }
-.authentic .login-box * {
-  margin: 0 auto;
+.authentic .login-box input {
+  border-radius: 10px;
+  border: none;
+  margin: .2rem 0;
+  height: 1.8rem;
+  width: 13rem;
+  display: block;
+}
+.authentic .login-box button {
+  border-radius: 3px;
+  padding: .3rem 0;
+  display: block;
+  width: 13rem;
+  outline: none;
+  border: none;
+}
+.authentic .login-box button:hover {
+  background-color: rgba(232, 188, 200, 0.5);
+  cursor: pointer;
 }
 /*# sourceMappingURL=./authentic.css.map */

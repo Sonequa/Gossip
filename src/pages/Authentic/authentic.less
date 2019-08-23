@@ -6,15 +6,35 @@
     width: 100%;
     border-radius: 5px;
     .login-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
         position: fixed;
         top: 50%;
         transform: translate(0, -50%);
-        input {
+        h2 {
             display: block;
         }
-        * {
-            margin: 0 auto;
+        input {
+            border-radius: 10px;
+            border: none;
+            margin: .2rem 0;
+            height: 1.8rem;
+            width: 13rem;
+            display: block;
+        }
+        button {
+            border-radius: 3px;
+            padding: .3rem 0;
+            display: block;
+            width: 13rem;
+            outline: none;
+            border: none;
+            &:hover {
+                background-color: @hoverPink;
+                cursor: pointer;
+            }
         }
     }
 }
