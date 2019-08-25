@@ -25,7 +25,7 @@ class Authentic extends Component {
                     <input type="text"/>
                     <div>
                         <button onClick={this.login}>Log in</button>
-                        <Link to="signUp">注册账号</Link>
+                        <Link to="/signUp">注册账号</Link>
                     </div>
                 </div>
     		</div>

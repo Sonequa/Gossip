@@ -1,0 +1,13 @@
+input {
+  border-radius: 5px;
+  border: none;
+  margin: .2rem 0;
+  height: 1.8rem;
+  width: 15rem;
+  display: block;
+}
+
+.authentic {
+  background-color: red;
+}
+/*# sourceMappingURL=authentic.css.map */

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWindowClose } from '@fortawesome/free-solid-svg-icons';
 
 class Header extends Component {
     constructor(props) {
@@ -13,7 +15,9 @@ class Header extends Component {
         return(
             <header className="header">
                 <div className="zone-box">
-                    <button></button>
+                    <button>
+                        <FontAwesomeIcon icon={faWindowClose} />
+                    </button>
                 </div>
                 <div className="underline"></div>
             </header>

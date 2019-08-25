@@ -1,0 +1,15 @@
+#library() {
+    .colors() {
+      primary: green;
+      secondary: blue;
+    }
+  }
+  
+#library() {
+    .colors() { primary: grey; }
+}
+  
+.button {
+    color: #library.colors[primary];
+    border-color: #library.colors[secondary];
+}

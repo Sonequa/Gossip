@@ -5,7 +5,7 @@ import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import rootReducer from './store/index';
 import { createStore } from 'redux';
-import RouterConfig from './router/index';
+import App from './App';
 
 let store = createStore(
     rootReducer,
@@ -14,7 +14,7 @@ console.log(`BaseParams: ${{ ...store }}`);
 
 ReactDOM.render(
     <Provider store={store}>
-        <RouterConfig />
+        <App />
     </Provider>,
     document.getElementById('root')
 );

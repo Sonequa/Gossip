@@ -1,0 +1,25 @@
+$mainPink: rgb(252, 218, 224);
+$buttonPink: rgb(232, 188, 200);
+$hoverPink: rgb(202, 168, 180);
+
+%input-base {
+    border-radius: 5px;
+    border: none;
+    margin: .2rem 0;
+    height: 1.8rem;
+    width: 15rem;
+    display: block;
+}
+
+%button-base {
+    background-color: $buttonPink;
+    border-radius: 3px;
+    display: block;
+    outline: none;
+    border: none;
+    transition-duration: .3s;
+    &:hover {
+        background-color: $hoverPink;
+        cursor: pointer;
+    }
+}

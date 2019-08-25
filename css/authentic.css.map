@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACSA,AATA,KASK,CATO;EACR,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,MAAM;EACd,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,KAAK;CACjB;;ADLD,AAAA,UAAU,CAAC;EACP,gBAAgB,EAAE,GAAG;CACxB",
+    "sources": [
+        "../src/pages/Authentic/authentic.scss",
+        "../src/main.scss"
+    ],
+    "names": [],
+    "file": "authentic.css"
+}
